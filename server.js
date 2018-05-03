@@ -6,7 +6,7 @@ routesEngine(app);
 app.listen(process.env.PORT || 3000, function () {
   console.log('Listening on port, process.cwd(): ' + process.cwd() );
 });
-In implementation of index.js, now we need to implement verification process:
+//In implementation of index.js, now we need to implement verification process:
 var request = require('request');
 var jsSHA = require('jssha');
 
