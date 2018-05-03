@@ -3,7 +3,7 @@ var routesEngine = require('./index.js');
 var app = express();
 routesEngine(app);
 
-app.listen(process.env.PORT || 3000, function () {
+app.listen(process.env.PORT || 8080, function () {
   console.log('Listening on port, process.cwd(): ' + process.cwd() );
 });
 //In implementation of index.js, now we need to implement verification process:
